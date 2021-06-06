@@ -21,7 +21,10 @@ class MainActivity : AppCompatActivity() {
 //        Navigation.findNavController(this,R.id.my_nav_host_fragment).navigate(R.id.homeFragment)
     }
     fun demo(){
-        print("hihihihi")
         println("Ahaha")
+        test()
+    }
+    fun test(){
+        println("Ahihi")
     }
 }
