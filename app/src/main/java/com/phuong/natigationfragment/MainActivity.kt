@@ -20,11 +20,5 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNav.setupWithNavController(controller)
 //        Navigation.findNavController(this,R.id.my_nav_host_fragment).navigate(R.id.homeFragment)
     }
-    fun demo(){
-        println("Ahaha")
-        test()
-    }
-    fun test(){
-        println("Ahihi")
-    }
+
 }
